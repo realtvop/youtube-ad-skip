@@ -6,6 +6,7 @@
 // @author       飞机上的长电视(@realtvop)
 // @match        *://www.youtube.com/*
 // @grant        none
+// @updateURL    https://github.com/realtvop/youtube-ad-skip/raw/main/ad-skip.user.js
 // ==/UserScript==
 
 (function () {
