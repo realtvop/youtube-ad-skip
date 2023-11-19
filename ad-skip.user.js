@@ -15,7 +15,6 @@
     }
 
     function skipAd() {
-        const loggingMethod = ;
         const skipButton = document.querySelector('.ytp-ad-text.ytp-ad-skip-button-text');
         if (skipButton) {
             skipButton.click();
