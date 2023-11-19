@@ -11,19 +11,16 @@
 
 (function () {
     'use strict';
-    function log(info) {
-        (window.ytadskipDevMode ? alert : console.log)(info);
-    }
 
     function skipAd() {
         const skipButton = document.querySelector('.ytp-ad-text.ytp-ad-skip-button-text');
         if (skipButton) {
             skipButton.click();
-            log("Skip button clicked.");
+            console.log("Skip button clicked.");
         } else if (document.querySelector(".ytp-ad-text")) {
             const videoElement = document.querySelector("video.video-stream.html5-main-video");
             videoElement.currentTime = videoElement.duration;
-            log("Ad skiped.");
+            console.log("Ad skiped.");
         }
     }
 
